@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "intent": "WatchIntent",
+            "slots": [
+        {
+          "name": "MEDIA",
+          "type": "LIST_OF_DEVICES"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.PauseIntent"
+    },
+    {
+      "intent": "AMAZON.ResumeIntent"
+    }
+  ]
+}
